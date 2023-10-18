@@ -1,0 +1,509 @@
+The target system is: riscv - 3 - 
+The host system is: Linux - 5.15.0-86-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/liuqing/workspace/test_riscv/build/CMakeFiles/3.5.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/liuqing/workspace/test_riscv/build/CMakeFiles/3.5.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca6da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca6da.dir/build.make CMakeFiles/cmTC_ca6da.dir/build
+make[1]: Entering directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca6da.dir/testCCompiler.c.obj
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc     -o CMakeFiles/cmTC_ca6da.dir/testCCompiler.c.obj   -c /home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ca6da
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca6da.dir/link.txt --verbose=1
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc       CMakeFiles/cmTC_ca6da.dir/testCCompiler.c.obj  -o cmTC_ca6da  
+make[1]: Leaving directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_460cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_460cf.dir/build.make CMakeFiles/cmTC_460cf.dir/build
+make[1]: Entering directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_460cf.dir/CMakeCCompilerABI.c.obj
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc     -o CMakeFiles/cmTC_460cf.dir/CMakeCCompilerABI.c.obj   -c /usr/local/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_460cf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_460cf.dir/link.txt --verbose=1
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc      -v CMakeFiles/cmTC_460cf.dir/CMakeCCompilerABI.c.obj  -o cmTC_460cf   
+Using built-in specs.
+COLLECT_GCC=/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc
+COLLECT_LTO_WRAPPER=/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/lto-wrapper
+Target: riscv64-unknown-elf
+Configured with: /home/liuqing/software/riscv-gnu-toolchain/gcc/configure --target=riscv64-unknown-elf --prefix=/home/liuqing/toolchain/riscv32 --disable-shared --disable-threads --enable-languages=c,c++ --with-pkgversion=g2ee5e430018 --with-system-zlib --enable-tls --with-newlib --with-sysroot=/home/liuqing/toolchain/riscv32/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=.././gcc --enable-multilib --with-abi=lp64d --with-arch=rv64imafdc --with-tune=rocket --with-isa-spec=20191213 'CFLAGS_FOR_TARGET=-Os    -mcmodel=medlow' 'CXXFLAGS_FOR_TARGET=-Os    -mcmodel=medlow'
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (g2ee5e430018) 
+COMPILER_PATH=/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/bin/
+LIBRARY_PATH=/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/:/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_460cf' '-mtune=rocket' '-march=rv64imafdc_zicsr' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr' '-dumpdir' 'cmTC_460cf.'
+ /home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/collect2 -plugin /home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/liblto_plugin.so -plugin-opt=/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYwsOCC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=/home/liuqing/toolchain/riscv32/riscv64-unknown-elf -melf64lriscv -o cmTC_460cf /home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/crt0.o /home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/crtbegin.o -L/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0 -L/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib -L/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib CMakeFiles/cmTC_460cf.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc /home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_460cf' '-mtune=rocket' '-march=rv64imafdc_zicsr' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr' '-dumpdir' 'cmTC_460cf.'
+make[1]: Leaving directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_460cf/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_460cf.dir/build.make CMakeFiles/cmTC_460cf.dir/build]
+  ignore line: [make[1]: Entering directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_460cf.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc     -o CMakeFiles/cmTC_460cf.dir/CMakeCCompilerABI.c.obj   -c /usr/local/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_460cf]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_460cf.dir/link.txt --verbose=1]
+  ignore line: [/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc      -v CMakeFiles/cmTC_460cf.dir/CMakeCCompilerABI.c.obj  -o cmTC_460cf   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/lto-wrapper]
+  ignore line: [Target: riscv64-unknown-elf]
+  ignore line: [Configured with: /home/liuqing/software/riscv-gnu-toolchain/gcc/configure --target=riscv64-unknown-elf --prefix=/home/liuqing/toolchain/riscv32 --disable-shared --disable-threads --enable-languages=c,c++ --with-pkgversion=g2ee5e430018 --with-system-zlib --enable-tls --with-newlib --with-sysroot=/home/liuqing/toolchain/riscv32/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=.././gcc --enable-multilib --with-abi=lp64d --with-arch=rv64imafdc --with-tune=rocket --with-isa-spec=20191213 'CFLAGS_FOR_TARGET=-Os    -mcmodel=medlow' 'CXXFLAGS_FOR_TARGET=-Os    -mcmodel=medlow']
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (g2ee5e430018) ]
+  ignore line: [COMPILER_PATH=/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/:/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_460cf' '-mtune=rocket' '-march=rv64imafdc_zicsr' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr' '-dumpdir' 'cmTC_460cf.']
+  link line: [ /home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/collect2 -plugin /home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/liblto_plugin.so -plugin-opt=/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYwsOCC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=/home/liuqing/toolchain/riscv32/riscv64-unknown-elf -melf64lriscv -o cmTC_460cf /home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/crt0.o /home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/crtbegin.o -L/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0 -L/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib -L/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib CMakeFiles/cmTC_460cf.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc /home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/crtend.o]
+    arg [/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccYwsOCC.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgloss] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/liuqing/toolchain/riscv32/riscv64-unknown-elf] ==> ignore
+    arg [-melf64lriscv] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_460cf] ==> ignore
+    arg [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/crt0.o] ==> ignore
+    arg [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/crtbegin.o] ==> ignore
+    arg [-L/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0] ==> dir [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0]
+    arg [-L/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib] ==> dir [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib]
+    arg [-L/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib] ==> dir [/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib]
+    arg [CMakeFiles/cmTC_460cf.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--start-group] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgloss] ==> lib [gloss]
+    arg [--end-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/crtend.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0] ==> [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0]
+  collapse library dir [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib] ==> [/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib]
+  collapse library dir [/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib] ==> [/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib]
+  implicit libs: [c;gloss]
+  implicit dirs: [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0;/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2cf25/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2cf25.dir/build.make CMakeFiles/cmTC_2cf25.dir/build
+make[1]: Entering directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2cf25.dir/feature_tests.c.obj
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc    -std=c11 -o CMakeFiles/cmTC_2cf25.dir/feature_tests.c.obj   -c /home/liuqing/workspace/test_riscv/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2cf25
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cf25.dir/link.txt --verbose=1
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc       CMakeFiles/cmTC_2cf25.dir/feature_tests.c.obj  -o cmTC_2cf25  
+make[1]: Leaving directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef16b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef16b.dir/build.make CMakeFiles/cmTC_ef16b.dir/build
+make[1]: Entering directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef16b.dir/feature_tests.c.obj
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc    -std=c99 -o CMakeFiles/cmTC_ef16b.dir/feature_tests.c.obj   -c /home/liuqing/workspace/test_riscv/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ef16b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef16b.dir/link.txt --verbose=1
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc       CMakeFiles/cmTC_ef16b.dir/feature_tests.c.obj  -o cmTC_ef16b  
+make[1]: Leaving directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_668b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_668b9.dir/build.make CMakeFiles/cmTC_668b9.dir/build
+make[1]: Entering directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_668b9.dir/feature_tests.c.obj
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc    -std=c90 -o CMakeFiles/cmTC_668b9.dir/feature_tests.c.obj   -c /home/liuqing/workspace/test_riscv/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_668b9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_668b9.dir/link.txt --verbose=1
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc       CMakeFiles/cmTC_668b9.dir/feature_tests.c.obj  -o cmTC_668b9  
+make[1]: Leaving directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9bb61/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9bb61.dir/build.make CMakeFiles/cmTC_9bb61.dir/build
+make[1]: Entering directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9bb61.dir/testCXXCompiler.cxx.obj
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc      -o CMakeFiles/cmTC_9bb61.dir/testCXXCompiler.cxx.obj -c /home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_9bb61
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bb61.dir/link.txt --verbose=1
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc        CMakeFiles/cmTC_9bb61.dir/testCXXCompiler.cxx.obj  -o cmTC_9bb61  
+make[1]: Leaving directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d6b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d6b9.dir/build.make CMakeFiles/cmTC_3d6b9.dir/build
+make[1]: Entering directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d6b9.dir/CMakeCXXCompilerABI.cpp.obj
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc      -o CMakeFiles/cmTC_3d6b9.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_3d6b9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d6b9.dir/link.txt --verbose=1
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc       -v CMakeFiles/cmTC_3d6b9.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_3d6b9   
+Using built-in specs.
+COLLECT_GCC=/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc
+COLLECT_LTO_WRAPPER=/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/lto-wrapper
+Target: riscv64-unknown-elf
+Configured with: /home/liuqing/software/riscv-gnu-toolchain/gcc/configure --target=riscv64-unknown-elf --prefix=/home/liuqing/toolchain/riscv32 --disable-shared --disable-threads --enable-languages=c,c++ --with-pkgversion=g2ee5e430018 --with-system-zlib --enable-tls --with-newlib --with-sysroot=/home/liuqing/toolchain/riscv32/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=.././gcc --enable-multilib --with-abi=lp64d --with-arch=rv64imafdc --with-tune=rocket --with-isa-spec=20191213 'CFLAGS_FOR_TARGET=-Os    -mcmodel=medlow' 'CXXFLAGS_FOR_TARGET=-Os    -mcmodel=medlow'
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (g2ee5e430018) 
+COMPILER_PATH=/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/bin/
+LIBRARY_PATH=/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/:/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3d6b9' '-mtune=rocket' '-march=rv64imafdc_zicsr' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr' '-dumpdir' 'cmTC_3d6b9.'
+ /home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/collect2 -plugin /home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/liblto_plugin.so -plugin-opt=/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccysXlTx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=/home/liuqing/toolchain/riscv32/riscv64-unknown-elf -melf64lriscv -o cmTC_3d6b9 /home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/crt0.o /home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/crtbegin.o -L/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0 -L/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib -L/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib CMakeFiles/cmTC_3d6b9.dir/CMakeCXXCompilerABI.cpp.obj -lgcc --start-group -lc -lgloss --end-group -lgcc /home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3d6b9' '-mtune=rocket' '-march=rv64imafdc_zicsr' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr' '-dumpdir' 'cmTC_3d6b9.'
+make[1]: Leaving directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3d6b9/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3d6b9.dir/build.make CMakeFiles/cmTC_3d6b9.dir/build]
+  ignore line: [make[1]: Entering directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_3d6b9.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc      -o CMakeFiles/cmTC_3d6b9.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_3d6b9]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d6b9.dir/link.txt --verbose=1]
+  ignore line: [/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc       -v CMakeFiles/cmTC_3d6b9.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_3d6b9   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/lto-wrapper]
+  ignore line: [Target: riscv64-unknown-elf]
+  ignore line: [Configured with: /home/liuqing/software/riscv-gnu-toolchain/gcc/configure --target=riscv64-unknown-elf --prefix=/home/liuqing/toolchain/riscv32 --disable-shared --disable-threads --enable-languages=c,c++ --with-pkgversion=g2ee5e430018 --with-system-zlib --enable-tls --with-newlib --with-sysroot=/home/liuqing/toolchain/riscv32/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=.././gcc --enable-multilib --with-abi=lp64d --with-arch=rv64imafdc --with-tune=rocket --with-isa-spec=20191213 'CFLAGS_FOR_TARGET=-Os    -mcmodel=medlow' 'CXXFLAGS_FOR_TARGET=-Os    -mcmodel=medlow']
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (g2ee5e430018) ]
+  ignore line: [COMPILER_PATH=/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/:/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/:/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3d6b9' '-mtune=rocket' '-march=rv64imafdc_zicsr' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr' '-dumpdir' 'cmTC_3d6b9.']
+  link line: [ /home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/collect2 -plugin /home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/liblto_plugin.so -plugin-opt=/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccysXlTx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=/home/liuqing/toolchain/riscv32/riscv64-unknown-elf -melf64lriscv -o cmTC_3d6b9 /home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/crt0.o /home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/crtbegin.o -L/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0 -L/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib -L/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib CMakeFiles/cmTC_3d6b9.dir/CMakeCXXCompilerABI.cpp.obj -lgcc --start-group -lc -lgloss --end-group -lgcc /home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/crtend.o]
+    arg [/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/liuqing/toolchain/riscv32/libexec/gcc/riscv64-unknown-elf/12.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccysXlTx.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgloss] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/liuqing/toolchain/riscv32/riscv64-unknown-elf] ==> ignore
+    arg [-melf64lriscv] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3d6b9] ==> ignore
+    arg [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/crt0.o] ==> ignore
+    arg [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/crtbegin.o] ==> ignore
+    arg [-L/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0] ==> dir [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0]
+    arg [-L/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib] ==> dir [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib]
+    arg [-L/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib] ==> dir [/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib]
+    arg [CMakeFiles/cmTC_3d6b9.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--start-group] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgloss] ==> lib [gloss]
+    arg [--end-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/crtend.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0] ==> [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0]
+  collapse library dir [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib] ==> [/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib]
+  collapse library dir [/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib] ==> [/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib]
+  implicit libs: [c;gloss]
+  implicit dirs: [/home/liuqing/toolchain/riscv32/lib/gcc/riscv64-unknown-elf/12.2.0;/home/liuqing/toolchain/riscv32/riscv64-unknown-elf/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3f0b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3f0b.dir/build.make CMakeFiles/cmTC_c3f0b.dir/build
+make[1]: Entering directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c3f0b.dir/feature_tests.cxx.obj
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc     -std=c++14 -o CMakeFiles/cmTC_c3f0b.dir/feature_tests.cxx.obj -c /home/liuqing/workspace/test_riscv/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c3f0b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3f0b.dir/link.txt --verbose=1
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc        CMakeFiles/cmTC_c3f0b.dir/feature_tests.cxx.obj  -o cmTC_c3f0b  
+make[1]: Leaving directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b1b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b1b7.dir/build.make CMakeFiles/cmTC_7b1b7.dir/build
+make[1]: Entering directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7b1b7.dir/feature_tests.cxx.obj
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc     -std=c++11 -o CMakeFiles/cmTC_7b1b7.dir/feature_tests.cxx.obj -c /home/liuqing/workspace/test_riscv/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7b1b7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b1b7.dir/link.txt --verbose=1
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc        CMakeFiles/cmTC_7b1b7.dir/feature_tests.cxx.obj  -o cmTC_7b1b7  
+make[1]: Leaving directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4efc4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4efc4.dir/build.make CMakeFiles/cmTC_4efc4.dir/build
+make[1]: Entering directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4efc4.dir/feature_tests.cxx.obj
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc     -std=c++98 -o CMakeFiles/cmTC_4efc4.dir/feature_tests.cxx.obj -c /home/liuqing/workspace/test_riscv/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4efc4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4efc4.dir/link.txt --verbose=1
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc        CMakeFiles/cmTC_4efc4.dir/feature_tests.cxx.obj  -o cmTC_4efc4  
+make[1]: Leaving directory '/home/liuqing/workspace/test_riscv/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

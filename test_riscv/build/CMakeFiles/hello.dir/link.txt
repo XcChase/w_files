@@ -1,0 +1,1 @@
+/home/liuqing/toolchain/riscv32/bin/riscv64-unknown-elf-gcc     CMakeFiles/hello.dir/src/test.c.obj  -o hello  

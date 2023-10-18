@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main()
+{
+    volatile int i;
+    printf("Hello,risc-v!\n");
+    return 0;
+}

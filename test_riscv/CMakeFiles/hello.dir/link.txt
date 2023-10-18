@@ -1,0 +1,1 @@
+/home/cwh/tools/bin/riscv64-unknown-linux-gnu-gcc CMakeFiles/hello.dir/src1/test.c.obj -o hello 

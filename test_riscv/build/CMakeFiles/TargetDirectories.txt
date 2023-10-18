@@ -1,0 +1,3 @@
+/home/liuqing/workspace/test_riscv/build/CMakeFiles/edit_cache.dir
+/home/liuqing/workspace/test_riscv/build/CMakeFiles/rebuild_cache.dir
+/home/liuqing/workspace/test_riscv/build/CMakeFiles/hello.dir
